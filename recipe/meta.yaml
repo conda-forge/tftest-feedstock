@@ -1,13 +1,13 @@
 {% set name = "tftest" %}
-{% set version = "1.8.5" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tftest-{{ version }}.tar.gz
-  sha256: 4dc4cbe3dd6c89b0d8732ac5ec8d1ed27e4e3aff26374baa42af6e5c90087df8
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/tftest-{{ version }}.tar.gz
+  sha256: bcc714539f5016c689d0692979551fdce3f1a46ba13d3362712ce3c964a13b1d
 
 build:
   noarch: python
